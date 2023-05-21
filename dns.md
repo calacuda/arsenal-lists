@@ -21,3 +21,9 @@ for ip in $(seq <start> <end>); do host <IP-FORMAT>; done | grep -v "not found"
 ```
 dnsrecon -d <domain-name> -D <wordlist> -t brt
 ```
+
+## dnsenum2 - normal DNS recon
+
+```
+dnsrecon <domain-name>
+```
