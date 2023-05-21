@@ -4,14 +4,20 @@
 
 #plateform/linux #target/local #cat/MISC/RECON #port/53
 
-## Subdomain Enumneration
+## Bash - Subdomain Enumneration (brute-force)
 
 ```
 for subd in $(cat <wordlist>); do host $subd.<domain>; done
 ```
 
-## Reverse DNS Enum
+## Bash - Reverse DNS Enum (brute-force)
 
 ```
 for ip in $(seq <start> <end>); do host <IP-FORMAT>; done | grep -v "not found"
+```
+
+## dnsrecon - Subdomain Enumeration (brute-force)
+
+```
+dnsrecon -d <domain-name> -D <wordlist> -t brt
 ```
