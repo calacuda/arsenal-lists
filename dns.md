@@ -9,3 +9,9 @@
 ```
 for subd in $(cat <wordlist>); do host $subd.<domain>; done
 ```
+
+## Reverse DNS Enum
+
+```
+for ip in $(seq <start> <end>); do host <IP-FORMAT>; done | grep -v "not found"
+```
