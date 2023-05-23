@@ -1,8 +1,8 @@
-# SNMP
+# snmp
 
 % SNMP Simple Network Management Protocol
 
-#plateform/windows #target/remote #protocol/snmp #port/161
+#plateform/windows #target/remote #protocol/snmp #cat/recon #port/161
 
 ## onesixtyone - find SNMP hosts
 
@@ -14,6 +14,12 @@ echo "<ip>" >> 161.ips; echo public > community; echo private >> community; echo
 
 ```
 sudo nmap -sU --open -p 161 <ip> -oG open-snmp.txt
+```
+
+## snmp get general information
+
+```
+snmpwalk -c public -v1 -t 10 <ip> -Oa
 ```
 
 ## snmp list system processes
