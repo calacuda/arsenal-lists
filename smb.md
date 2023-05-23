@@ -10,7 +10,7 @@
 nbtscan -r <start IP>/<Network Bits>/
 ```
 
-## Nmap find SMB servers
+## Nmap - find SMB servers
 
 ```
 nmap -v -p 139,445 -oG smb.txt <ip-range>
