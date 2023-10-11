@@ -25,7 +25,7 @@ medusa -h <ip> -M ssh -u <user-name> -P <passwords-file>
 uses patator to brute force passwords for a specified user
 
 ```
-patator ssh_login host=<ip> user=<User-name> password=FILE0 0=<password file> -x ignore:mesg='Authentication failed.'
+patator ssh_login host=<ip> user=<user-name> password=FILE0 0=<password-file> -x ignore:mesg='Authentication failed.'
 ```
 
 ## SSH Password Brute Force (Hydra)
