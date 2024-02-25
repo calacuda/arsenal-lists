@@ -2,7 +2,7 @@
 
 % SNMP Simple Network Management Protocol
 
-#plateform/windows #target/remote #protocol/snmp #cat/recon #port/161
+#platform/windows #target/remote #protocol/snmp #cat/recon #port/161
 
 ## onesixtyone - find SNMP hosts
 

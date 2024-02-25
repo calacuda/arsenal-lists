@@ -2,7 +2,7 @@
 
 % SMB
 
-#plateform/linux #target/remote #protocol/smb #port/445/139
+#platform/linux #target/remote #protocol/smb #port/445/139
 
 ## SMB Name Enum
 

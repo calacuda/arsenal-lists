@@ -2,7 +2,7 @@
 
 % nmap scans
 
-#plateform/linux #target/remote #cat/MISC/RECON/PORT-SCAN
+#platform/linux #target/remote #cat/MISC/RECON/PORT-SCAN
 
 ## nmap OS detection
 

@@ -2,7 +2,7 @@
 
 % password cracking
 
-#plateform/linux #target/local #cat/MISC/RECON
+#platform/linux #target/local #cat/MISC/RECON
 
 ## Medusa Telnet
 
@@ -18,4 +18,12 @@ lists what protocols Medusa can brute-force
 
 ```
 medusa -d
+```
+
+## Rainbow Table Crack
+
+uses rcracki_mt and rainbow tables to crack passwords
+
+```
+rcracki_mt -h <hash> -t 4 *.rti
 ```

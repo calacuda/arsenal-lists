@@ -2,7 +2,7 @@
 
 % DNS Enumeration
 
-#plateform/linux #target/local #cat/MISC/RECON #protocol/dns #port/53
+#platform/linux #target/local #cat/MISC/RECON #protocol/dns #port/53
 
 ## Bash - Subdomain Enumneration (brute-force)
 

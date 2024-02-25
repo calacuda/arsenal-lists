@@ -2,7 +2,7 @@
 
 % MISC
 
-#plateform/linux #target/local #cat/MISC
+#platform/linux #target/local #cat/MISC
 
 ## Python File Transfer
 

@@ -2,7 +2,7 @@
 
 % remote shell (secure)
 
-#plateform/linux #target/local #cat/MISC/RECON #protocol/ssh #port/22
+#platform/linux #target/local #cat/MISC/RECON #protocol/ssh #port/22
 
 ## Remote SSH access
 
